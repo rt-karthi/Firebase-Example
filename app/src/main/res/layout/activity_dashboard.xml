@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".DashboardActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:text="FireBase" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/authenticate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="15dp"
+        android:text="Email / Password Authentication" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RealTime Database"
+        android:padding="5dp"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/real_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload / Retrieve (Text)"
+        android:padding="5dp"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/real_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload / Retrieve (Image)"
+        android:padding="5dp"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/cloud_firestore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cloud Firestore"
+        android:padding="5dp"
+        android:layout_margin="15dp"/>
+
+</LinearLayout>
